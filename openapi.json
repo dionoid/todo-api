@@ -7,12 +7,12 @@
     },
     "servers": [
       {
-        "url": "https://localost:3000",
+        "url": "https://raw.githubusercontent.com/dionoid/todo-api/refs/heads/main",
         "description": "local server"
       }
     ],
     "paths": {
-      "/api/todos": {
+      "/todos": {
         "get": {
           "summary": "Get all todos",
           "responses": {
