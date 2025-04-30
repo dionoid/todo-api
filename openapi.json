@@ -1,0 +1,83 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Kanban Todo API",
+      "version": "1.0.0",
+      "description": "API for managing todos in a Kanban board"
+    },
+    "servers": [
+      {
+        "url": "https://localost:3000",
+        "description": "local server"
+      }
+    ],
+    "paths": {
+      "/api/todos": {
+        "get": {
+          "summary": "Get all todos",
+          "responses": {
+            "200": {
+              "description": "list of todos",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Todo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Todo": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string",
+              "nullable": true
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "TODO",
+                "IN_PROGRESS",
+                "DONE"
+              ]
+            },
+            "due_date": {
+              "type": "string",
+              "format": "date-time",
+              "nullable": true
+            },
+            "created_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "updated_at": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          "required": [
+              "id",
+              "title",
+              "status"
+          ]
+        }
+      }
+    }
+  }
+  
