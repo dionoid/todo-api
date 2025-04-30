@@ -1,0 +1,56 @@
+[
+	{
+		"id": "f08a8b97-01d8-4875-a3e9-db07b6397b87",
+		"title": "Plan Weekend Getaway",
+		"description": "Research and book a cozy cabin in the mountains for a relaxing weekend getaway. Make a list of activities to do and pack essentials for the trip.",
+		"status": "TODO",
+		"due_date": null,
+		"created_at": "2025-03-18T14:08:59.495146+00:00",
+		"updated_at": "2025-03-18T14:08:59.495146+00:00"
+	},
+	{
+		"id": "1d728a46-a1c9-4a9b-9cc0-326f2222daa9",
+		"title": "Organize Workspace",
+		"description": "Sort and arrange all files and documents in the office to improve efficiency.",
+		"status": "TODO",
+		"due_date": null,
+		"created_at": "2025-03-18T13:23:41.424592+00:00",
+		"updated_at": "2025-03-18T13:23:41.424592+00:00"
+	},
+	{
+		"id": "19276d17-b99a-4fb2-8923-77c34a32ac3c",
+		"title": "Explore New Coffee Shop",
+		"description": "Visit the new coffee shop downtown and try their signature latte.",
+		"status": "TODO",
+		"due_date": null,
+		"created_at": "2025-03-18T13:01:27.38371+00:00",
+		"updated_at": "2025-03-18T13:01:27.38371+00:00"
+	},
+	{
+		"id": "183f680b-34e7-44b5-88ec-78fd1189407d",
+		"title": "Check Emails",
+		"description": "Go through inbox and respond to important emails.",
+		"status": "DONE",
+		"due_date": null,
+		"created_at": "2025-03-17T16:34:37.842839+00:00",
+		"updated_at": "2025-04-25T11:37:42.17459+00:00"
+	},
+	{
+		"id": "3543e9e9-1ecf-49c9-bdab-ead90cadf6fd",
+		"title": "Read a Book",
+		"description": "Read 10 pages of any book.",
+		"status": "IN_PROGRESS",
+		"due_date": "2025-04-16T22:00:00+00:00",
+		"created_at": "2025-03-17T16:34:03.606773+00:00",
+		"updated_at": "2025-04-25T10:58:05.400434+00:00"
+	},
+	{
+		"id": "793a8a8f-583a-4218-a801-539b3424a0e8",
+		"title": "Buy Groceries",
+		"description": "Get milk, eggs, and bread from the store.",
+		"status": "IN_PROGRESS",
+		"due_date": "2025-05-14T22:00:00+00:00",
+		"created_at": "2025-03-17T16:32:10.926654+00:00",
+		"updated_at": "2025-04-25T10:58:15.153539+00:00"
+	}
+]
